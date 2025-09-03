@@ -5,13 +5,15 @@
 # - ensure the code is formatted
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: CI
+name: CI (+build , + test)
 
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
+
+  workflow_dispatch:
 
 jobs:
   build:
