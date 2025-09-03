@@ -214,7 +214,7 @@ ${badgeHTML}</textarea
   }
 
   private get _url() {
-    return `https://my.home-assistant.io/redirect/${this._redirect.redirect}/${
+    return `https://ha-link.heyfordy.de/redirect/${this._redirect.redirect}/${
       Object.keys(this._paramsValues).length
         ? `?${createSearchParam(this._paramsValues)}`
         : ""
@@ -273,7 +273,7 @@ ${badgeHTML}</textarea
   private _createMarkdown() {
     return `[![${
       this._altText
-    }](https://my.home-assistant.io${this._createBadge()})](${this._url})`;
+    }](https://ha-link.heyfordy.de${this._createBadge()})](${this._url})`;
   }
 
   private _select(ev) {

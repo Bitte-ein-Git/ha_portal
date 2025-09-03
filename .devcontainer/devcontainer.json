@@ -1,5 +1,5 @@
 {
-  "name": "My Home Assistant",
+  "name": "🌀 • HA Links Portal",
   "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:22",
   "postCreateCommand": "yarn install",
   "context": "..",
