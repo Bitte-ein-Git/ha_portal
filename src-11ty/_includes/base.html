@@ -2,14 +2,14 @@
 <!-- prettier-ignore -->
 {% endcomment %}
 {%- if redirect -%}
-{% capture title %}Link to {{redirect.name}}{% endcapture %}
-{% capture description %}{{redirect.description | title }} in Home Assistant.{% endcapture %}
+{% capture title %} 🔗• HA-Link »  {{redirect.name}}{% endcapture %}
+{% capture description %}{{redirect.description | title }} | 🌀 Portal {% endcapture %}
 {%- endif -%}
 {% capture full_title -%}
 {%- if title -%}
-{{ title }} – My Home Assistant
+{{ title }} | 🌀 Portal
 {%- else -%}
-My Home Assistant
+🌀 • HA-Link Portal
 {%- endif -%}
 {%- endcapture %}
 {% comment %}
@@ -20,29 +20,22 @@ My Home Assistant
   <head>
     <meta charset="utf-8" />
     <title>{{ full_title }}</title>
-    <link rel="icon" href="/images/favicon.png" type="image/png" />
+    <link rel="icon" href="https://heyfordy.de/assets/icon.png" type="image/png" />
     <meta name="description" content="{{ description }}" />
     <meta name="viewport" content="width=device-width" />
     <meta property="og:title" content="{{ full_title }}" />
-    <meta property="og:site_name" content="My Home Assistant" />
+    <meta property="og:site_name" content="🌀 • HA-Link Portal" />
     <meta
       property="og:url"
-      content="https://my.home-assistant.io{{ page.url }}"
+      content="https://ha-link.heyfordy.de{{ page.url }}"
     />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="{{ description }}" />
     <meta
       property="og:image"
-      content="https://my.home-assistant.io/images/social.png"
+      content="https://ha-link.heyfordy.de/images/social.png"
     />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@home_assistant" />
-    <meta name="twitter:title" content="{{ full_title }}" />
-    <meta name="twitter:description" content="{{ description }}" />
-    <meta
-      name="twitter:image"
-      content="https://my.home-assistant.io/images/social.png"
-    />
+
     <style>
       html {
         font-size: 16px;
@@ -57,7 +50,7 @@ My Home Assistant
         font-weight: 400;
         margin: 0;
         padding: 0;
-        background-color: #fafafa;
+        background-color: #131313% 2%);
 
         --md-sys-color-background: #f6f9ff;
         --md-sys-color-on-background: #171c21;
@@ -79,7 +72,7 @@ My Home Assistant
         --md-sys-color-shadow: #000000;
         --md-sys-color-scrim: #000000;
         --md-sys-color-surface-tint: #006493;
-        --md-sys-color-primary: #03a9f4;
+        --md-sys-color-primary: #F4A903;
         --md-sys-color-on-primary: #ffffff;
         --md-sys-color-primary-container: #32b5ff;
         --md-sys-color-on-primary-container: #002337;
@@ -256,13 +249,13 @@ My Home Assistant
       {{ content }}
       <div class="spacer"></div>
       <div class="footer">
-        <a href="/">My Home Assistant</a> –
-        <a href="/create-link/">Create link</a> – <a href="/faq/">FAQ</a> –
+        <a href="/">🌀 • HA-Link Portal</a> –
+        <a href="/create-link/">🔗 • Link Creator</a> – <a href="/faq/">FAQ</a> –
         <a
-          href="https://github.com/home-assistant/my.home-assistant.io/issues"
+          href="https://github.com/Bitte-ein-Git/"
           target="_blank"
           rel="noopener"
-          >Report bug</a
+          >🗿 » GitHub</a
         >
       </div>
     </div>

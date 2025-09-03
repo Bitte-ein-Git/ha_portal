@@ -3219,9 +3219,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"my.home-assistant.io@workspace:.":
+"ha-link.heyfordy.de@workspace:.":
   version: 0.0.0-use.local
-  resolution: "my.home-assistant.io@workspace:."
+  resolution: "ha-link.heyfordy.de@workspace:."
   dependencies:
     "@11ty/eleventy": ^3.1.2
     "@braintree/sanitize-url": ^7.1.1
