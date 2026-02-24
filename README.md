@@ -1,6 +1,6 @@
-# My Home Assistant
+# 🌀 • HA-Link Portal
 
-Powers https://my.home-assistant.io/
+Powers https://ha-link.heyfordy.dev/
 
 ## Development
 

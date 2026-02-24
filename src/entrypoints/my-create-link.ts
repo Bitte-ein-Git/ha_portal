@@ -273,7 +273,7 @@ ${badgeHTML}</textarea
   private _createMarkdown() {
     return `[![${
       this._altText
-    }](https://my.home-assistant.io${this._createBadge()})](${this._url})`;
+    }](https://ha-link.heyfordy.dev${this._createBadge()})](${this._url})`;
   }
 
   private _select(ev) {

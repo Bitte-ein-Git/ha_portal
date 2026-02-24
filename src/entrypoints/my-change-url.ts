@@ -68,7 +68,7 @@ class MyChangeUrl extends LitElement {
       <div class="card-content">
         ${this._instanceUrl
           ? html`<p>
-              Configure My Home Assistant by entering the URL of your Home
+              Configure '🌀 • HA-Link Portal' by entering the URL of your Home
               Assistant instance.
             </p>`
           : ""}
